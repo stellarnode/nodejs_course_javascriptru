@@ -1,0 +1,21 @@
+{
+  "name": "javascriptru-nodejs-course",
+  "version": "1.0.0",
+  "description": "modules and packages for the node js course from javascript.ru (all files are in the yaroslav.smirnov folder on dropbox)",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "formidable": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Yaroslav Smirnov",
+  "license": "ISC",
+  "homepage": ""
+}
