@@ -1,0 +1,19 @@
+extends layout
+
+block content
+
+  form(id="login" name="login" action="/login" method="post")
+    h1 Please Sing In
+    #login-flash.alert.alert-danger.hidden
+    input(type="hidden" name="_csrf" value=csrf)
+    .form-group
+      label(for="email") Email
+      input.form-control(type="email" id="email" name="email" placeholder="my@mail.com" required autofocus)
+    .form-group
+      label(for="password") Password
+      input.form-control(type="password" id="password" name="password" required)
+
+    button.btn.btn-lg.btn-primary.btn-block(type="submit") Sing In
+
+    br
+    a(href="/register") Create an Account

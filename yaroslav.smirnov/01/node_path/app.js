@@ -3,8 +3,8 @@
 
 // This way you don't have to use require('./test');
 
-const test = require('test');
-
 console.log(process.env.NODE_PATH);
+
+const test = require('test');
 
 console.log(test);

@@ -1,0 +1,10 @@
+.container {
+  margin: auto;
+  width: 600px;
+
+  padding: 8px;
+}
+
+#flash-messages {
+  padding: 10px;
+}
